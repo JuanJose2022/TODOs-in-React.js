@@ -1,12 +1,15 @@
-function TodoItem() {
-    return (
-      <li>
-        <span>V</span>
-        <p>Llorar con la Llorona</p>
-        <span>X</span>
-      </li>
-    );
-  }
-  
-  export { TodoItem };
+import React from 'react';
+import './TodoItem.css';
+
+function TodoItem(props) {
+  return (
+    <li className="TodoItem">
+      <span className={`Icon Icon-check ${props.completed && "Icon-check--active"}`}>V</span>
+      <p className={`TodoItem-p ${props.completed && "TodoItem-p--complete"}`}>{props.text}</p>
+      <span className="Icon Icon-delete">X</span>
+    </li>
+  );
+}
+
+export { TodoItem };
   

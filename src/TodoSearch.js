@@ -1,7 +1,13 @@
+import React from 'react';
+import './TodoSearch.css';
+
 function TodoSearch() {
-    return (
-      <input placeholder="Cortar cebolla" />
-    );
-  }
-  
-  export { TodoSearch };
+  return (
+    <input
+      placeholder="Cortar cebolla"
+      className="TodoSearch"
+    />
+  );
+}
+
+export { TodoSearch };
