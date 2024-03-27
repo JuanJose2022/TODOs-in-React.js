@@ -1,3 +1,4 @@
+import React from 'react';
 import { TodoCounter } from '../TodoCounter';
 import { TodoSearch } from '../TodoSearch';
 import { TodoList } from '../TodoList';
@@ -17,7 +18,7 @@ function AppUI({
     <>
       <TodoCounter
         completed={completedTodos}
-        total={totalTodos} 
+        total={totalTodos}
       />
       <TodoSearch
         searchValue={searchValue}
