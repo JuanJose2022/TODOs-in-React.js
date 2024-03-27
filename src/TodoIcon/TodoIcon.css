@@ -1,3 +1,4 @@
+
 .Icon-container {
   cursor: pointer;
   display: flex;
@@ -6,14 +7,14 @@
   height: 48px;
   width: 48px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
+  /* background-color: #CCC; */
 }
 
 .Icon-container-check {
   position: absolute;
   left: 12px;
 }
-
 .Icon-container-check--active {
   color: #4caf50;
 }
@@ -23,7 +24,6 @@
   top: -24px;
   right: 0;
 }
-
 .Icon-container-delete:hover {
   color: red;
 }
@@ -36,7 +36,6 @@
 .Icon-container-check:hover .Icon-svg {
   fill: green;
 }
-
 .Icon-container-delete:hover .Icon-svg {
   fill: red;
 }

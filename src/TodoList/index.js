@@ -1,4 +1,3 @@
-import React from 'react';
 import './TodoList.css';
 
 function TodoList({ children }) {
@@ -10,3 +9,4 @@ function TodoList({ children }) {
 }
 
 export { TodoList };
+
