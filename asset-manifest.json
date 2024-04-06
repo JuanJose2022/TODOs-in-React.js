@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.bbce1e86.css",
-    "main.js": "./static/js/main.4e90258c.js",
-    "index.html": "./index.html",
-    "static/media/delete.svg": "./static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
-    "static/media/check.svg": "./static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
-    "main.bbce1e86.css.map": "./static/css/main.bbce1e86.css.map",
-    "main.4e90258c.js.map": "./static/js/main.4e90258c.js.map"
+    "main.css": "/JuanJose2022/TODOs-in-React.js/static/css/main.bbce1e86.css",
+    "main.js": "/JuanJose2022/TODOs-in-React.js/static/js/main.5facfb77.js",
+    "index.html": "/JuanJose2022/TODOs-in-React.js/index.html",
+    "static/media/delete.svg": "/JuanJose2022/TODOs-in-React.js/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/JuanJose2022/TODOs-in-React.js/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.bbce1e86.css.map": "/JuanJose2022/TODOs-in-React.js/static/css/main.bbce1e86.css.map",
+    "main.5facfb77.js.map": "/JuanJose2022/TODOs-in-React.js/static/js/main.5facfb77.js.map"
   },
   "entrypoints": [
     "static/css/main.bbce1e86.css",
-    "static/js/main.4e90258c.js"
+    "static/js/main.5facfb77.js"
   ]
 }
